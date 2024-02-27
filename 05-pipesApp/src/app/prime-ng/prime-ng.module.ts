@@ -8,6 +8,8 @@ import { CardModule } from 'primeng/card';
 import { MenubarModule } from 'primeng/menubar';
 import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
+import { ToolbarModule } from 'primeng/toolbar';
+import { TableModule } from 'primeng/table';
 @NgModule({
   exports:[
     MenuModule,
@@ -15,7 +17,9 @@ import { PanelModule } from 'primeng/panel';
     ButtonModule,
     CardModule,
     FieldsetModule,
-    PanelModule
+    PanelModule,
+    ToolbarModule,
+    TableModule
 
   ]
 })

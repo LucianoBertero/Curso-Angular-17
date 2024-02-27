@@ -9,6 +9,13 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
 import {  SharedModules } from './shared/shared.module';
 import{ BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
+
+//configuracion de local de la app
+
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +26,8 @@ import{ BrowserAnimationsModule } from '@angular/platform-browser/animations'
     AppRoutingModule,
     PrimeNgModule,
     SharedModules,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
 
   ],
   providers: [],
