@@ -3,26 +3,24 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-layout-page',
   templateUrl: './layout-page.component.html',
-  styles: ``
+  styles: ``,
 })
 export class LayoutPageComponent {
-
-  public  sidebarItems=[
+  public sidebarItems = [
     {
-      label:'Listado',
-      icon:'label',
-      url:'./list'
+      label: 'Listado',
+      icon: 'label',
+      url: './list',
     },
     {
-      label:'Añadir',
-      icon:'add',
-      url:'./new-hero'
+      label: 'Añadir',
+      icon: 'add',
+      url: './new-hero',
     },
     {
-      label:'Buscar',
-      icon:'search',
-      url:'./search'
+      label: 'Buscar',
+      icon: 'search',
+      url: './search',
     },
-  ]
-
+  ];
 }

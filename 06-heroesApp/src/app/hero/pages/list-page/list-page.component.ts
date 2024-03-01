@@ -5,30 +5,15 @@ import { HeroService } from '../../services/heroes.service';
 @Component({
   selector: 'app-list-page',
   templateUrl: './list-page.component.html',
-  styles: ``
+  styles: ``,
 })
-export class ListPageComponent implements OnInit{
+export class ListPageComponent implements OnInit {
+  public heroes: Hero[] = [];
 
-  public heroes:Hero[]=[]
-
-
-  constructor(private heroService:HeroService){
-
-  }
+  constructor(private heroService: HeroService) {}
   ngOnInit(): void {
-    this.heroService.getHeroes().subscribe(
-      (hero)=>{
-        this.heroes=hero
-      }
-    )
+    this.heroService.getHeroes().subscribe((hero) => {
+      this.heroes = hero;
+    });
   }
-
-
-
-
-
-
-
-
-
 }
