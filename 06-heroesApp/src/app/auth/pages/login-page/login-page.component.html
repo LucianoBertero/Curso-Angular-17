@@ -8,7 +8,13 @@
     <mat-label>Contrasenia</mat-label>
     <input type="password" matInput placeholder="Ingrese la constrasenia" />
   </mat-form-field>
-  <button class="" mat-button mat-flat-button color="primary">
+  <button
+    class=""
+    mat-button
+    mat-flat-button
+    color="primary"
+    (click)="onLogin()"
+  >
     <mat-icon>save</mat-icon>
     Ingresar
   </button>
