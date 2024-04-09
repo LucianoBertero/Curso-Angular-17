@@ -35,6 +35,8 @@ export class AuthController {
     return this.authService.register(registerDto);
   }
 
+  //asdasdasds
+
   @UseGuards(AuthGuard)
   @Get()
   findAll(@Request() req: Request) {
